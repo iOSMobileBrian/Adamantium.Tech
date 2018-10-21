@@ -1,0 +1,164 @@
+h1{
+	color: blue;
+	text-align: left;
+	 border-radius: 8px;
+    font-family: 'Rokkitt';
+    font-size: 20px;
+    background-color:;
+    padding: 10px;
+}
+
+figure{margin: auto; clear: both; text-align: center; padding: 2; }
+
+p{
+
+	color: black;
+	//background-color:beige;
+	text-align: left;
+    border-radius: 8px;
+
+}
+
+nav{
+
+   font-family:'rokkitt';
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   background-color: silver;
+   margin-top: 0;
+   margin-bottom: auto;
+
+}
+
+nav ul{
+
+	list-style-type:upper-latin;
+
+
+
+}
+
+nav li{
+
+	display: inline;
+	margin: 5px;
+    text-align: center;
+    font-family: 'rokkitt';
+
+
+
+}
+
+li a{
+
+	color: white;
+	margin: 10px;
+}
+
+nav a {
+
+	//float: left;
+    display: inline-block;
+    height: 10PX;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;}
+
+nav a:link{
+
+	color: white;
+}
+
+nav a :visited{
+
+	color:#00FF00;
+}
+
+
+nav a:hover {
+
+  color: blue;
+}
+
+
+
+nav a:active {
+
+  color: #0000FF;
+  background-color: white;
+}
+
+#wrapper{width:85%%;overflow:hidden;}
+#freeapp{width:25%;float:left;margin:auto; padding:2px; border:2px solid green;}
+#Gold{width:25%;float:right;margin:auto;padding:2px;border:2px solid Gold;}
+#adamantium{width:25%;align:center;margin:auto;padding:2px;border:2px solid black;}
+#footer{clear:both; background-color: silver;padding: 10px;margin: 10px;}
+#services{background-color:silver;width: 50%; border-radius: 8px;font-family: 'rokkitt';}
+#beginings{background-color:silver;border-radius: 8px;font-family: 'rokkitt';width: 50%}
+#cybersecurity{background-color:silver;border-radius: 8px;font-family: 'rokkitt';width: 50%}
+
+table{width: 100%;margin:auto;padding: 10px; float:left;}
+table, th, td {border: 2px solid black;padding: 10px;}
+th{background-color: blue;color: white;font-size: 20px;font-family: 'Rokkitt';}
+td{color: blue; font-size: 18px;}
+caption{font-size: 100;color: blue;padding: 20px;}
+
+
+
+form{
+
+  font-family: 'Rokkitt';
+  width: 100%;
+  padding-top: 2px;
+  color: black;
+}
+
+
+input[type=text], [type=email], [type=number]{
+    width: 50%;
+    color: blue;
+    font-family: 'Rokkitt';
+    font-size:18px;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 8px;
+
+
+
+}
+
+select {
+    width: 25%;
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    font-family: 'Rokkitt';
+    font-size: 20px;
+    color: blue;
+}
+
+
+textarea{
+
+width: 45%;
+float:right;
+margin:auto;
+padding:2px;
+
+}
+
+button{
+
+text-align: center;
+font-size: 16px;
+padding: 15px 32px;
+background-color: blue;
+color: white;
+margin:25px;
+border-radius: 8px;
+
+}
+
+body{background-color: snow;}
